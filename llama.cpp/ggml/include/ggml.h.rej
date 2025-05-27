@@ -1,0 +1,18 @@
+diff a/ggml/include/ggml.h b/ggml/include/ggml.h	(rejected hunks)
+@@ -223,7 +223,7 @@
+ #define GGML_MAX_OP_PARAMS      64
+ 
+ #ifndef GGML_MAX_NAME
+-#   define GGML_MAX_NAME        64
++#   define GGML_MAX_NAME        128
+ #endif
+ 
+ #define GGML_DEFAULT_N_THREADS  4
+@@ -2449,6 +2449,7 @@ extern "C" {
+ 
+     // manage tensor info
+     GGML_API void gguf_add_tensor(struct gguf_context * ctx, const struct ggml_tensor * tensor);
++    GGML_API void gguf_set_tensor_ndim(struct gguf_context * ctx, const char * name, int n_dim);
+     GGML_API void gguf_set_tensor_type(struct gguf_context * ctx, const char * name, enum ggml_type type);
+     GGML_API void gguf_set_tensor_data(struct gguf_context * ctx, const char * name, const void * data, size_t size);
+ 

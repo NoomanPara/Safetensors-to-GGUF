@@ -1,0 +1,2 @@
+python convert.py --src D:\FluxtoGGUF\model.safetensors
+llama.cpp\build\bin\Debug\llama-quantize.exe D:\FluxtoGGUF\model.gguf D:\FluxtoGGUF\model2.gguf Q4_K_S

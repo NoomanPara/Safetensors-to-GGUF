@@ -1,0 +1,16 @@
+diff a/ggml/src/ggml.c b/ggml/src/ggml.c	(rejected hunks)
+@@ -22960,6 +22960,14 @@ void gguf_add_tensor(
+     ctx->header.n_tensors++;
+ }
+ 
++void gguf_set_tensor_ndim(struct gguf_context * ctx, const char * name, const int n_dim) {
++    const int idx = gguf_find_tensor(ctx, name);
++    if (idx < 0) {
++        GGML_ABORT("tensor not found");
++    }
++    ctx->infos[idx].n_dims = n_dim;
++}
++
+ void gguf_set_tensor_type(struct gguf_context * ctx, const char * name, enum ggml_type type) {
+     const int idx = gguf_find_tensor(ctx, name);
+     if (idx < 0) {
