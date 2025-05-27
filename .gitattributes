@@ -1,0 +1,4 @@
+* text=auto
+*.py text eol=lf
+*.patch text eol=lf
+*.rej text eol=lf
