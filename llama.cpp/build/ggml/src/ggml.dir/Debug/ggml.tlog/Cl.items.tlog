@@ -1,0 +1,6 @@
+D:\Flux to GGUF\llama.cpp\ggml\src\ggml.c;D:\Flux to GGUF\llama.cpp\build\ggml\src\ggml.dir\Debug\ggml.obj
+D:\Flux to GGUF\llama.cpp\ggml\src\ggml-alloc.c;D:\Flux to GGUF\llama.cpp\build\ggml\src\ggml.dir\Debug\ggml-alloc.obj
+D:\Flux to GGUF\llama.cpp\ggml\src\ggml-backend.cpp;D:\Flux to GGUF\llama.cpp\build\ggml\src\ggml.dir\Debug\ggml-backend.obj
+D:\Flux to GGUF\llama.cpp\ggml\src\ggml-quants.c;D:\Flux to GGUF\llama.cpp\build\ggml\src\ggml.dir\Debug\ggml-quants.obj
+D:\Flux to GGUF\llama.cpp\ggml\src\llamafile\sgemm.cpp;D:\Flux to GGUF\llama.cpp\build\ggml\src\ggml.dir\Debug\sgemm.obj
+D:\Flux to GGUF\llama.cpp\ggml\src\ggml-aarch64.c;D:\Flux to GGUF\llama.cpp\build\ggml\src\ggml.dir\Debug\ggml-aarch64.obj

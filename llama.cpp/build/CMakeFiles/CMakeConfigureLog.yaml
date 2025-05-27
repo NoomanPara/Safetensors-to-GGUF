@@ -1,0 +1,1006 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 23-05-2025 17:57:14.
+      
+      Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.58
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Flux to GGUF/llama.cpp/build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 23-05-2025 17:57:15.
+      
+      Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.41
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Flux to GGUF/llama.cpp/build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wmrfsc"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wmrfsc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wmrfsc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b76d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:16.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wmrfsc\\cmTC_b76d6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b76d6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wmrfsc\\Debug\\".
+          Creating directory "cmTC_b76d6.dir\\Debug\\cmTC_b76d6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b76d6.dir\\Debug\\cmTC_b76d6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b76d6.dir\\Debug\\cmTC_b76d6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b76d6.dir\\Debug\\\\" /Fd"cmTC_b76d6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b76d6.dir\\Debug\\\\" /Fd"cmTC_b76d6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wmrfsc\\Debug\\cmTC_b76d6.exe" /INCREMENTAL /ILK:"cmTC_b76d6.dir\\Debug\\cmTC_b76d6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wmrfsc/Debug/cmTC_b76d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wmrfsc/Debug/cmTC_b76d6.lib" /MACHINE:X64  /machine:x64 cmTC_b76d6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b76d6.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wmrfsc\\Debug\\cmTC_b76d6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b76d6.dir\\Debug\\cmTC_b76d6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b76d6.dir\\Debug\\cmTC_b76d6.tlog\\cmTC_b76d6.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wmrfsc\\cmTC_b76d6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a88yc"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a88yc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a88yc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_556d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:16.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a88yc\\cmTC_556d2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_556d2.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a88yc\\Debug\\".
+          Creating directory "cmTC_556d2.dir\\Debug\\cmTC_556d2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_556d2.dir\\Debug\\cmTC_556d2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_556d2.dir\\Debug\\cmTC_556d2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_556d2.dir\\Debug\\\\" /Fd"cmTC_556d2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_556d2.dir\\Debug\\\\" /Fd"cmTC_556d2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a88yc\\Debug\\cmTC_556d2.exe" /INCREMENTAL /ILK:"cmTC_556d2.dir\\Debug\\cmTC_556d2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a88yc/Debug/cmTC_556d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a88yc/Debug/cmTC_556d2.lib" /MACHINE:X64  /machine:x64 cmTC_556d2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_556d2.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a88yc\\Debug\\cmTC_556d2.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_556d2.dir\\Debug\\cmTC_556d2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_556d2.dir\\Debug\\cmTC_556d2.tlog\\cmTC_556d2.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a88yc\\cmTC_556d2.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "ggml/CMakeLists.txt:190 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hbc0t2"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hbc0t2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hbc0t2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a8044.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:17.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\cmTC_a8044.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a8044.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\Debug\\".
+          Creating directory "cmTC_a8044.dir\\Debug\\cmTC_a8044.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a8044.dir\\Debug\\cmTC_a8044.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a8044.dir\\Debug\\cmTC_a8044.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_a8044.dir\\Debug\\\\" /Fd"cmTC_a8044.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_a8044.dir\\Debug\\\\" /Fd"cmTC_a8044.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\src.c"
+          src.c
+        D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\cmTC_a8044.vcxproj]
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\cmTC_a8044.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\cmTC_a8044.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbc0t2\\cmTC_a8044.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "ggml/CMakeLists.txt:190 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mwrgfj"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mwrgfj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mwrgfj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6075f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:18.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\cmTC_6075f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6075f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\Debug\\".
+          Creating directory "cmTC_6075f.dir\\Debug\\cmTC_6075f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6075f.dir\\Debug\\cmTC_6075f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6075f.dir\\Debug\\cmTC_6075f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6075f.dir\\Debug\\\\" /Fd"cmTC_6075f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6075f.dir\\Debug\\\\" /Fd"cmTC_6075f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\Debug\\cmTC_6075f.exe" /INCREMENTAL /ILK:"cmTC_6075f.dir\\Debug\\cmTC_6075f.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mwrgfj/Debug/cmTC_6075f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mwrgfj/Debug/cmTC_6075f.lib" /MACHINE:X64  /machine:x64 cmTC_6075f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\cmTC_6075f.vcxproj]
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\cmTC_6075f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\cmTC_6075f.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mwrgfj\\cmTC_6075f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "ggml/CMakeLists.txt:190 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vgata5"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vgata5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vgata5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_da495.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:18.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\cmTC_da495.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_da495.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\Debug\\".
+          Creating directory "cmTC_da495.dir\\Debug\\cmTC_da495.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_da495.dir\\Debug\\cmTC_da495.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_da495.dir\\Debug\\cmTC_da495.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_da495.dir\\Debug\\\\" /Fd"cmTC_da495.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_da495.dir\\Debug\\\\" /Fd"cmTC_da495.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\Debug\\cmTC_da495.exe" /INCREMENTAL /ILK:"cmTC_da495.dir\\Debug\\cmTC_da495.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vgata5/Debug/cmTC_da495.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vgata5/Debug/cmTC_da495.lib" /MACHINE:X64  /machine:x64 cmTC_da495.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\cmTC_da495.vcxproj]
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\cmTC_da495.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\cmTC_da495.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vgata5\\cmTC_da495.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mfw5t2"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mfw5t2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mfw5t2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5aaab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:19.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfw5t2\\cmTC_5aaab.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5aaab.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfw5t2\\Debug\\".
+          Creating directory "cmTC_5aaab.dir\\Debug\\cmTC_5aaab.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5aaab.dir\\Debug\\cmTC_5aaab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5aaab.dir\\Debug\\cmTC_5aaab.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c11 /Fo"cmTC_5aaab.dir\\Debug\\\\" /Fd"cmTC_5aaab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfw5t2\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c11 /Fo"cmTC_5aaab.dir\\Debug\\\\" /Fd"cmTC_5aaab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfw5t2\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfw5t2\\Debug\\cmTC_5aaab.exe" /INCREMENTAL /ILK:"cmTC_5aaab.dir\\Debug\\cmTC_5aaab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mfw5t2/Debug/cmTC_5aaab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mfw5t2/Debug/cmTC_5aaab.lib" /MACHINE:X64  /machine:x64 cmTC_5aaab.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_5aaab.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfw5t2\\Debug\\cmTC_5aaab.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5aaab.dir\\Debug\\cmTC_5aaab.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5aaab.dir\\Debug\\cmTC_5aaab.tlog\\cmTC_5aaab.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfw5t2\\cmTC_5aaab.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a91zv"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a91zv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a91zv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7460a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:20.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a91zv\\cmTC_7460a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7460a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a91zv\\Debug\\".
+          Creating directory "cmTC_7460a.dir\\Debug\\cmTC_7460a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7460a.dir\\Debug\\cmTC_7460a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7460a.dir\\Debug\\cmTC_7460a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_7460a.dir\\Debug\\\\" /Fd"cmTC_7460a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a91zv\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_7460a.dir\\Debug\\\\" /Fd"cmTC_7460a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a91zv\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a91zv\\Debug\\cmTC_7460a.exe" /INCREMENTAL /ILK:"cmTC_7460a.dir\\Debug\\cmTC_7460a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a91zv/Debug/cmTC_7460a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1a91zv/Debug/cmTC_7460a.lib" /MACHINE:X64  /machine:x64 cmTC_7460a.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_7460a.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a91zv\\Debug\\cmTC_7460a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7460a.dir\\Debug\\cmTC_7460a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7460a.dir\\Debug\\cmTC_7460a.tlog\\cmTC_7460a.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a91zv\\cmTC_7460a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:491 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:631 (_OPENMP_GET_SPEC_DATE)"
+      - "ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xzotwl"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xzotwl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xzotwl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b35e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:20.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xzotwl\\cmTC_b35e5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b35e5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xzotwl\\Debug\\".
+          Creating directory "cmTC_b35e5.dir\\Debug\\cmTC_b35e5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b35e5.dir\\Debug\\cmTC_b35e5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b35e5.dir\\Debug\\cmTC_b35e5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c11 /Fo"cmTC_b35e5.dir\\Debug\\\\" /Fd"cmTC_b35e5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xzotwl\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c11 /Fo"cmTC_b35e5.dir\\Debug\\\\" /Fd"cmTC_b35e5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xzotwl\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xzotwl\\Debug\\cmTC_b35e5.exe" /INCREMENTAL /ILK:"cmTC_b35e5.dir\\Debug\\cmTC_b35e5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xzotwl/Debug/cmTC_b35e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xzotwl/Debug/cmTC_b35e5.lib" /MACHINE:X64  /machine:x64 cmTC_b35e5.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_b35e5.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xzotwl\\Debug\\cmTC_b35e5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b35e5.dir\\Debug\\cmTC_b35e5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b35e5.dir\\Debug\\cmTC_b35e5.tlog\\cmTC_b35e5.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xzotwl\\cmTC_b35e5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:491 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:631 (_OPENMP_GET_SPEC_DATE)"
+      - "ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-qfrwmj"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-qfrwmj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-qfrwmj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a8743.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:21.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfrwmj\\cmTC_a8743.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a8743.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfrwmj\\Debug\\".
+          Creating directory "cmTC_a8743.dir\\Debug\\cmTC_a8743.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a8743.dir\\Debug\\cmTC_a8743.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a8743.dir\\Debug\\cmTC_a8743.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_a8743.dir\\Debug\\\\" /Fd"cmTC_a8743.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfrwmj\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_a8743.dir\\Debug\\\\" /Fd"cmTC_a8743.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfrwmj\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfrwmj\\Debug\\cmTC_a8743.exe" /INCREMENTAL /ILK:"cmTC_a8743.dir\\Debug\\cmTC_a8743.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-qfrwmj/Debug/cmTC_a8743.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-qfrwmj/Debug/cmTC_a8743.lib" /MACHINE:X64  /machine:x64 cmTC_a8743.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_a8743.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfrwmj\\Debug\\cmTC_a8743.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a8743.dir\\Debug\\cmTC_a8743.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a8743.dir\\Debug\\cmTC_a8743.tlog\\cmTC_a8743.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qfrwmj\\cmTC_a8743.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:80 (check_sse)"
+      - "ggml/src/CMakeLists.txt:1183 (include)"
+    checks:
+      - "Performing Test HAS_AVX_1"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8kpd6b"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8kpd6b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8kpd6b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b54c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:22.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8kpd6b\\cmTC_b54c7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b54c7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8kpd6b\\Debug\\".
+          Creating directory "cmTC_b54c7.dir\\Debug\\cmTC_b54c7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b54c7.dir\\Debug\\cmTC_b54c7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b54c7.dir\\Debug\\cmTC_b54c7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_b54c7.dir\\Debug\\\\" /Fd"cmTC_b54c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8kpd6b\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_b54c7.dir\\Debug\\\\" /Fd"cmTC_b54c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8kpd6b\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8kpd6b\\Debug\\cmTC_b54c7.exe" /INCREMENTAL /ILK:"cmTC_b54c7.dir\\Debug\\cmTC_b54c7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8kpd6b/Debug/cmTC_b54c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8kpd6b/Debug/cmTC_b54c7.lib" /MACHINE:X64  /machine:x64 cmTC_b54c7.dir\\Debug\\src.obj
+          cmTC_b54c7.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8kpd6b\\Debug\\cmTC_b54c7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b54c7.dir\\Debug\\cmTC_b54c7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b54c7.dir\\Debug\\cmTC_b54c7.tlog\\cmTC_b54c7.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8kpd6b\\cmTC_b54c7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:87 (check_sse)"
+      - "ggml/src/CMakeLists.txt:1183 (include)"
+    checks:
+      - "Performing Test HAS_AVX2_1"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-f1riej"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-f1riej"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX2_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-f1riej'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bd9de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:22.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1riej\\cmTC_bd9de.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bd9de.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1riej\\Debug\\".
+          Creating directory "cmTC_bd9de.dir\\Debug\\cmTC_bd9de.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bd9de.dir\\Debug\\cmTC_bd9de.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bd9de.dir\\Debug\\cmTC_bd9de.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX2_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bd9de.dir\\Debug\\\\" /Fd"cmTC_bd9de.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1riej\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX2_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bd9de.dir\\Debug\\\\" /Fd"cmTC_bd9de.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1riej\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1riej\\Debug\\cmTC_bd9de.exe" /INCREMENTAL /ILK:"cmTC_bd9de.dir\\Debug\\cmTC_bd9de.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-f1riej/Debug/cmTC_bd9de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-f1riej/Debug/cmTC_bd9de.lib" /MACHINE:X64  /machine:x64 cmTC_bd9de.dir\\Debug\\src.obj
+          cmTC_bd9de.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1riej\\Debug\\cmTC_bd9de.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bd9de.dir\\Debug\\cmTC_bd9de.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bd9de.dir\\Debug\\cmTC_bd9de.tlog\\cmTC_bd9de.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1riej\\cmTC_bd9de.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX2_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:88 (check_sse)"
+      - "ggml/src/CMakeLists.txt:1183 (include)"
+    checks:
+      - "Performing Test HAS_FMA_1"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xap77r"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xap77r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_FMA_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xap77r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a4ac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:23.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xap77r\\cmTC_6a4ac.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6a4ac.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xap77r\\Debug\\".
+          Creating directory "cmTC_6a4ac.dir\\Debug\\cmTC_6a4ac.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6a4ac.dir\\Debug\\cmTC_6a4ac.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6a4ac.dir\\Debug\\cmTC_6a4ac.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_FMA_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6a4ac.dir\\Debug\\\\" /Fd"cmTC_6a4ac.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xap77r\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_FMA_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6a4ac.dir\\Debug\\\\" /Fd"cmTC_6a4ac.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xap77r\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xap77r\\Debug\\cmTC_6a4ac.exe" /INCREMENTAL /ILK:"cmTC_6a4ac.dir\\Debug\\cmTC_6a4ac.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xap77r/Debug/cmTC_6a4ac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xap77r/Debug/cmTC_6a4ac.lib" /MACHINE:X64  /machine:x64 cmTC_6a4ac.dir\\Debug\\src.obj
+          cmTC_6a4ac.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xap77r\\Debug\\cmTC_6a4ac.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6a4ac.dir\\Debug\\cmTC_6a4ac.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6a4ac.dir\\Debug\\cmTC_6a4ac.tlog\\cmTC_6a4ac.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xap77r\\cmTC_6a4ac.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_FMA_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:95 (check_sse)"
+      - "ggml/src/CMakeLists.txt:1183 (include)"
+    checks:
+      - "Performing Test HAS_AVX512_1"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-w8y44c"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-w8y44c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX512_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-w8y44c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04c84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:24.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8y44c\\cmTC_04c84.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_04c84.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8y44c\\Debug\\".
+          Creating directory "cmTC_04c84.dir\\Debug\\cmTC_04c84.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_04c84.dir\\Debug\\cmTC_04c84.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_04c84.dir\\Debug\\cmTC_04c84.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX512_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_04c84.dir\\Debug\\\\" /Fd"cmTC_04c84.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8y44c\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX512_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_04c84.dir\\Debug\\\\" /Fd"cmTC_04c84.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8y44c\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8y44c\\Debug\\cmTC_04c84.exe" /INCREMENTAL /ILK:"cmTC_04c84.dir\\Debug\\cmTC_04c84.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-w8y44c/Debug/cmTC_04c84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-w8y44c/Debug/cmTC_04c84.lib" /MACHINE:X64  /machine:x64 cmTC_04c84.dir\\Debug\\src.obj
+          cmTC_04c84.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8y44c\\Debug\\cmTC_04c84.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_04c84.dir\\Debug\\cmTC_04c84.tlog\\unsuccessfulbuild".
+          Touching "cmTC_04c84.dir\\Debug\\cmTC_04c84.tlog\\cmTC_04c84.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8y44c\\cmTC_04c84.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX512_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "ggml/cmake/FindSIMD.cmake:95 (check_sse)"
+      - "ggml/src/CMakeLists.txt:1183 (include)"
+    checks:
+      - "Performing Test HAS_AVX512_2"
+    directories:
+      source: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-9nuet5"
+      binary: "D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-9nuet5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Flux to GGUF/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX512_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-9nuet5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e791f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 23-05-2025 17:57:24.
+        
+        Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nuet5\\cmTC_e791f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e791f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nuet5\\Debug\\".
+          Creating directory "cmTC_e791f.dir\\Debug\\cmTC_e791f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e791f.dir\\Debug\\cmTC_e791f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e791f.dir\\Debug\\cmTC_e791f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX512_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /arch:AVX512 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e791f.dir\\Debug\\\\" /Fd"cmTC_e791f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nuet5\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX512_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /arch:AVX512 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e791f.dir\\Debug\\\\" /Fd"cmTC_e791f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nuet5\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nuet5\\Debug\\cmTC_e791f.exe" /INCREMENTAL /ILK:"cmTC_e791f.dir\\Debug\\cmTC_e791f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-9nuet5/Debug/cmTC_e791f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Flux to GGUF/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-9nuet5/Debug/cmTC_e791f.lib" /MACHINE:X64  /machine:x64 cmTC_e791f.dir\\Debug\\src.obj
+          cmTC_e791f.vcxproj -> D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nuet5\\Debug\\cmTC_e791f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e791f.dir\\Debug\\cmTC_e791f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e791f.dir\\Debug\\cmTC_e791f.tlog\\cmTC_e791f.lastbuildstate".
+        Done Building Project "D:\\Flux to GGUF\\llama.cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nuet5\\cmTC_e791f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX512_2_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+...

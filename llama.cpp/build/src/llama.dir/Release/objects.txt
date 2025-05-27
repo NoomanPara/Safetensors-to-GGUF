@@ -1,0 +1,6 @@
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/Release/llama.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/Release/llama-vocab.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/Release/llama-grammar.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/Release/llama-sampling.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/Release/unicode.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/Release/unicode-data.obj

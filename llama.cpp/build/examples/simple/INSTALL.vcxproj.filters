@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Flux to GGUF\llama.cpp\build\CMakeFiles\077363946b4e883a224b3f51ecddb48a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5A1D0502-A8AC-3F81-9B87-8388AEFBE25A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

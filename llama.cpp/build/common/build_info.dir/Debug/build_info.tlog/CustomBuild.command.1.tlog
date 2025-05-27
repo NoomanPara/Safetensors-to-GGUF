@@ -1,0 +1,24 @@
+^D:\FLUX TO GGUF\LLAMA.CPP\BUILD\CMAKEFILES\6F0F47BB809273CE8AF63CEE6B4E42CC\BUILD-INFO.CPP.RULE
+setlocal
+cd "D:\Flux to GGUF\llama.cpp"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DMSVC=1 -DCMAKE_C_COMPILER_VERSION=19.43.34809.0 -DCMAKE_C_COMPILER_ID=MSVC -DCMAKE_VS_PLATFORM_NAME=x64 "-DCMAKE_C_COMPILER=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe" -P "D:/Flux to GGUF/llama.cpp/common/cmake/build-info-gen-cpp.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUX TO GGUF\LLAMA.CPP\COMMON\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Flux to GGUF/llama.cpp" "-BD:/Flux to GGUF/llama.cpp/build" --check-stamp-file "D:/Flux to GGUF/llama.cpp/build/common/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

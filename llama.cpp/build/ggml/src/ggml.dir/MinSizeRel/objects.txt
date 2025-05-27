@@ -1,0 +1,6 @@
+D:/Flux to GGUF/llama.cpp/build/ggml/src/ggml.dir/MinSizeRel/ggml.obj
+D:/Flux to GGUF/llama.cpp/build/ggml/src/ggml.dir/MinSizeRel/ggml-alloc.obj
+D:/Flux to GGUF/llama.cpp/build/ggml/src/ggml.dir/MinSizeRel/ggml-backend.obj
+D:/Flux to GGUF/llama.cpp/build/ggml/src/ggml.dir/MinSizeRel/ggml-quants.obj
+D:/Flux to GGUF/llama.cpp/build/ggml/src/ggml.dir/MinSizeRel/sgemm.obj
+D:/Flux to GGUF/llama.cpp/build/ggml/src/ggml.dir/MinSizeRel/ggml-aarch64.obj

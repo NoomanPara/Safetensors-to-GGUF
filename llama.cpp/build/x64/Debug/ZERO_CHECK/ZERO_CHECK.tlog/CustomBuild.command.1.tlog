@@ -1,0 +1,10 @@
+^D:\FLUX TO GGUF\LLAMA.CPP\BUILD\CMAKEFILES\D8EC74C754CBE36DAE1FE3253DD7E4CB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Flux to GGUF/llama.cpp" "-BD:/Flux to GGUF/llama.cpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Flux to GGUF/llama.cpp/build/llama.cpp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

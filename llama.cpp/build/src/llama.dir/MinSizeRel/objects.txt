@@ -1,0 +1,6 @@
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/MinSizeRel/llama.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/MinSizeRel/llama-vocab.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/MinSizeRel/llama-grammar.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/MinSizeRel/llama-sampling.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/MinSizeRel/unicode.obj
+D:/Flux to GGUF/llama.cpp/build/src/llama.dir/MinSizeRel/unicode-data.obj
