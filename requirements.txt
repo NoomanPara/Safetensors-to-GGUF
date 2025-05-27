@@ -3,5 +3,5 @@ torch>=2.0.0
 transformers>=4.30.0
 safetensors
 numpy
-gguf
+gguf>=0.13.0
 sentencepiece
